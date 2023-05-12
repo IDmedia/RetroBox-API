@@ -6,6 +6,9 @@
 RetroBox API streamlines your retro gaming experience by offering a powerful backend that organizes your roms and associated data. Simply import game lists using a DAT file, and let the API post-process your rom collection to automatically sort, verify, and scrape it. You can even assign emulators to platforms or games, so all your information is stored centrally.
 This centralized storage enables future front-ends to easily integrate and search for games. You can request a specific game or all games for a given platform without any hassle. With all roms, media, and emulator files provided by the API, front-ends can offer a seamless one-click play experience, eliminating the need to mess with settings before enjoying your favorite game.
 
+TL;DR:
+While RetroBox API shares similarities with other **arr software like Sonarr or Radarr, its main focus is on post-processing and organization, rather than downloading.
+
 ## Features
 * Automatically scan and post-process your game collection, with options to verify it by hash or name
 * Scrape multiple websites, including screenscraper.fr, igdb.com, store.steampowered.com, mobygames.com, emumovies.com, and more, to provide comprehensive game information
