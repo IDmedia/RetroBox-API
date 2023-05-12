@@ -18,6 +18,9 @@ While RetroBox API shares similarities with other **arr software like Sonarr or 
 * Benefit from an Admin UI for editing scraped information or manually adding games
 * Run RetroBox API in Docker, using a SQLite database for maximum efficiency.
 
+## Progress
+I'm currently determining how rom management should work. Using DAT files would be ideal as they provide hashes and a list of games for most retro consoles. Supporting 1G1R would prevent drowning in multiple versions and reduce storage requirements. I'm exploring how to modify and use these DAT files to enable easy drag-and-drop functionality into a database directory, facilitating loading of desired games into the API's database. Let me know what you think about this idea!
+
 ## Client
 The client is still in the planning stages.  
 I envision a web-based solution, potentially using SvelteKit or another Javascript framework, that can fetch the list of platforms and games from the API. When a user selects a game, the client can then fetch media and detailed information from the API. Upon launching the game, the client can make another request for a bundled download containing the necessary rom/game files and emulator (if required). After the user exits the game, the client can extract the save game from the emulator directory and upload it to the API using the user's credentials.
