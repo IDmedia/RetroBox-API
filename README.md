@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 style="padding:20px;"><img src="retrobox.svg" height="220px" width="auto" alt="RetroBox"></h1>
+  <img src="retrobox.svg" height="220px" width="auto" alt="RetroBox">
 </div>
 
 # Overview
